@@ -40,7 +40,7 @@ $(function () {
     let error = result.error;
     let message = result.message;
 
-    エラーが無かったらフォームを送信する;
+    // エラーが無かったらフォームを送信する;
     if (error == false) {
       // フォーム送信は実際には行わず、送信成功メッセージのみ表示する
       alert("お問い合わせを送信しました。");
